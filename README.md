@@ -19,15 +19,10 @@ retina net은 하나의 Backbone Network와 각각의 Classificationrhk Bounding
 1.import libraries
 
 import os
-
 import requests
-
 from PIL import Image
-
 from io import BytesIO
-
 import time
-
 import tensorflow as tf
 
 
