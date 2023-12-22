@@ -112,7 +112,8 @@ detect_and_output_objects(image_urls[0])
 #### 3. 오브젝트 추출
 ~~~
 def extract_desired_objects(objects, img):
-    desired_objects = ["Person", "Human head", "Human eye", "Human nose", "Human neck","Human mouth", "Human body", "Human arm", "Human leg", "Human hand", "Foot"]
+    desired_objects = ["Person", "Human head", "Human eye", "Human nose", "Human neck","Human mouth", "Human body", "Human arm",
+                       "Human leg", "Human hand", "Foot"]
 
     object_dict = {}
 
@@ -157,7 +158,8 @@ def detect_and_output_desired_objects(image_url):
                 for obj in desired_objects:
                     print(f"Object: {obj['Object']}")
                     print(f"  - Score: {obj['Score']}")
-                    print(f"  - Box: ymin={obj['Box']['ymin']}, xmin={obj['Box']['xmin']}, ymax={obj['Box']['ymax']}, xmax={obj['Box']['xmax']}")
+                    print(f"  - Box: ymin={obj['Box']['ymin']}, xmin={obj['Box']['xmin']},
+                          ymax={obj['Box']['ymax']}, xmax={obj['Box']['xmax']}")
                     print()
             else:
                 print("No desired objects detected.")
@@ -207,7 +209,8 @@ def calculate_depression_score(obj_type, ymin, ymax, image_height):
         return default_depression_score
 
 def extract_desired_objects(objects, img, image_height):
-    desired_objects = ["Person", "Human head", "Human eye", "Human nose", "Human neck","Human mouth", "Human body", "Human arm", "Human leg", "Human hand", "Foot"]
+    desired_objects = ["Person", "Human head", "Human eye", "Human nose", "Human neck","Human mouth", "Human body", "Human arm",
+                      "Human leg", "Human hand", "Foot"]
 
     object_dict = {}
     total_score = 0
@@ -257,7 +260,8 @@ def detect_and_output_desired_objects(image_url):
                 for obj in desired_objects:
                     print(f"Object: {obj['Object']}")
                     print(f"  - Score: {obj['Score']}")
-                    print(f"  - Box: ymin={obj['Box']['ymin']}, xmin={obj['Box']['xmin']}, ymax={obj['Box']['ymax']}, xmax={obj['Box']['xmax']}")
+                    print(f"  - Box: ymin={obj['Box']['ymin']}, xmin={obj['Box']['xmin']},
+                           ymax={obj['Box']['ymax']}, xmax={obj['Box']['xmax']}")
                     print()
 
                 print(f"Total Depression Score: {average_score * len(desired_objects)}")
