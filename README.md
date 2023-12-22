@@ -10,7 +10,7 @@
 - 수행 성능은 타 detection 모델보다 뛰어남. 특히 One stage detector 보다 작은 object에 대한 detection능력이 뛰어남
 
 
-Retina Net은 하나의 Backbone Network와 각각의 Classificationrhk Bounding Box Regression을 수행하는 2개의 Subnetwork로 구성
+Retina Net은 하나의 Backbone Network와 각각의 Classification과 Bounding Box Regression을 수행하는 2개의 Subnetwork로 구성
 
 <img width="80%" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/af3001cd-6316-4ea4-ba3a-80faf2277329"/>
 
