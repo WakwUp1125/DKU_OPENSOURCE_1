@@ -109,7 +109,7 @@ def detect_and_output_objects(image_url):
 image_urls = ["https://drive.google.com/uc?id=1T1Su-UhZRQ-krH05Y0pc_d855eSRafnB"]
 detect_and_output_objects(image_urls[0])
 ~~~
-#### 3. 오브젝트 추출
+#### 3. 객체체 추출
 ~~~
 def extract_desired_objects(objects, img):
     desired_objects = ["Person", "Human head", "Human eye", "Human nose", "Human neck","Human mouth", "Human body", "Human arm",
