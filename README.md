@@ -26,7 +26,10 @@ Retina Net은 하나의 Backbone Network와 각각의 Classification과 Bounding
 
 ### 요구 사항
 
-### 실행방법
+python 3.10.12
+tensorflow 2.15.0
+
+### 실행방법(예시 : 사람 그림 분석)
 
 #### 1. import libraries
 ~~~
