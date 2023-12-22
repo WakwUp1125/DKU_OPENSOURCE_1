@@ -26,7 +26,7 @@ import time
 import tensorflow as tf
 ~~~
 
-2.객체 탐지
+#### 2.객체 탐지
 ~~~
 def download_and_resize_image(url, width, height):
     try:
@@ -97,7 +97,7 @@ def detect_and_output_objects(image_url):
 image_urls = ["https://drive.google.com/uc?id=1T1Su-UhZRQ-krH05Y0pc_d855eSRafnB"]
 detect_and_output_objects(image_urls[0])
 ~~~
-3. 오브젝트 추출
+#### 3. 오브젝트 추출
 ~~~
 def extract_desired_objects(objects, img):
     desired_objects = ["Person", "Human head", "Human eye", "Human nose", "Human neck","Human mouth", "Human body", "Human arm", "Human leg", "Human hand", "Foot"]
@@ -157,7 +157,7 @@ def detect_and_output_desired_objects(image_url):
 image_urls = ["https://drive.google.com/uc?id=1T1Su-UhZRQ-krH05Y0pc_d855eSRafnB"]
 detect_and_output_desired_objects(image_urls[0])
 ~~~
-4. 우울증 점수 계산
+#### 4. 우울증 점수 계산
 ~~~   
 def calculate_depression_score(obj_type, ymin, ymax, image_height):
     default_depression_score = 38.00
