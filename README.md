@@ -4,7 +4,7 @@
 
 - 데이터셋을 생성하여  모델을 학습시켜 이미지 캡셔닝을 이용한 아동 심리 분석 시도(오픈소스연습.ipynb,오픈소스_연습모델.ipynb,Untitled.ipynb)
 - 이미지 인식에 대한 오류 발생, 라벨링한 데이터 활용에 대한 어려움 -> 이미지 탐지 모델 변경
-- Retina Net을 활용한 object detection 결과에 따른 우울 정도 계산(object_detection2.ipynb)
+- Retina Net을 활용한 object detection 결과에 따른 우울 정도 계산(object_detection.ipynb)
   
 ### 모형설명
 
