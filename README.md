@@ -12,11 +12,16 @@
 retina net은 하나의 Backbone Network와 각각의 Classificationrhk Bounding Box Regression을 수행하는 2개의 Subnetwork로 구성
 <img width="80%" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/af3001cd-6316-4ea4-ba3a-80faf2277329"/>
 
+#### 결과
+<img width="80%" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/6908f9c7-7dd4-4866-a106-f41557de4898"/>
+
 ### 요구 사항
+
+### 코드 설명
 
 ### 실행방법
 
-#### 1.import libraries
+#### 1. import libraries
 ~~~
 import os
 import requests
@@ -26,7 +31,7 @@ import time
 import tensorflow as tf
 ~~~
 
-#### 2.객체 탐지
+#### 2. 객체 탐지
 ~~~
 def download_and_resize_image(url, width, height):
     try:
