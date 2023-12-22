@@ -89,7 +89,7 @@ def detect_and_output_objects(image_url):
 
             for i in range(len(objects["detection_scores"])):
                 score = objects["detection_scores"][i]
-                class_name = objects["detection_class_entities"][i].decode("utf-8")  # Use class name instead of class ID
+                class_name = objects["detection_class_entities"][i].decode("utf-8") 
                 box = objects["detection_boxes"][i]
                 ymin, xmin, ymax, xmax = box.tolist()
 
