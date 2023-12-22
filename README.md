@@ -9,11 +9,16 @@
 - 수행 시간은 YOLO나 SSD보다 느리지만 Faster RCNN보다 빠름
 - 수행 성능은 타 detection 모델보다 뛰어남. 특히 One stage detector 보다 작은 object에 대한 detection능력이 뛰어남
 
+
 retina net은 하나의 Backbone Network와 각각의 Classificationrhk Bounding Box Regression을 수행하는 2개의 Subnetwork로 구성
+
 <img width="80%" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/af3001cd-6316-4ea4-ba3a-80faf2277329"/>
 
 #### 결과
-<img width="80%" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/6908f9c7-7dd4-4866-a106-f41557de4898"/>
+<img width="240" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/de4a55dc-3f20-4cd5-ac0e-15ccdbda4349"/>
+<img width="240" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/30b734d6-ecd6-4219-a087-b2d815645d6c"/>
+<img width="240" src="https://github.com/WakwUp1125/DKU_OPENSOURCE_1/assets/130390077/00cee1bd-0f4a-4876-9c18-30d828336ad1"/>
+
 
 ### 요구 사항
 
