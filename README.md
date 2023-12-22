@@ -1,6 +1,9 @@
 오픈소스AI응용[텀프로젝트]
+
 object detection을 이용한 아동 심리 분석
+
 모형설명
+
 retina net
 - One Stage Detector의 빠른 detection 시간의 장점을 가지면서 One stage detector의 detection 성능 저하 문제 개선
 - 수행 시간은 YOLO나 SSD보다 느리지만 Faster RCNN보다 빠름
